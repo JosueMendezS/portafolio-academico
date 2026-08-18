@@ -98,6 +98,35 @@ body {
     max-width: 700px;
 }
 
+/* Sección de Habilidades */
+#habilidades {
+    padding: 40px;
+}
+
+#habilidades h2 {
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    background-color: var(--bg-secondary);
+    color: var(--color-accent);
+    border: 1px solid var(--color-accent);
+    border-radius: 8px;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.skill-tag:hover {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent-hover);
+}
+
 /* Sección de Proyectos - Distribución con CSS Grid */
 .projects-section {
     padding: 60px 40px;
